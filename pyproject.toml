@@ -1,0 +1,21 @@
+[project]
+name = "MaterialTk"
+version = "0.1.0"
+description = "MaterialTk is a collection of Material Design compatible widgets for use with Python's Tkinter standard library."
+authors = [
+    {name = "j4ggr", email = "reto@jaeggli.email"},
+]
+dependencies = [
+    "pyglet>=2.1.6",
+    "materialyoucolor>=2.0.10"]
+requires-python = ">=3.13"
+readme = "README.md"
+license = {text = "BSD-3-Clause"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
